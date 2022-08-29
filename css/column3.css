@@ -43,15 +43,15 @@
 }
 .drop_down_edit:hover{
     color: white;
-    background-color: rgb(0, 200, 205);
+    background-color: #44c2d3;
 }
 .drop_down_remove:hover{
     color: white;
-    background-color: rgb(0, 200, 205);
+    background-color: #44c2d3;
 }
 .drop_down_save:hover{
     color: white;
-    background-color: rgb(0, 200, 205);
+    background-color: #44c2d3;
 }
 .ab span{
     padding-right: 20%;
@@ -63,7 +63,7 @@
     margin-left: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color:rgb(0, 200, 205);
+    background-color:#44c2d3;
     color: white;
     text-align: center;
 }
@@ -91,7 +91,7 @@ option{
 }
 #congratulation_button button{
     margin-top: 30px;
-    background-color: rgb(0, 200, 205);
+    background-color: #44c2d3;
     border: none;
     padding: 3% 26%;
     color: white;

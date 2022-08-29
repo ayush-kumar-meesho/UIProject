@@ -15,9 +15,9 @@
         margin-left: 10%;
     }
    }
-   @media screen and (max-width: 1100px) {
-    #nav_img img{
-        margin-left: 5%;
+   @media screen and (max-width: 700px) {
+    #nav_img{
+        margin-left: 20%;
     }
    }
    @media screen and (max-width: 600px) {
@@ -28,7 +28,7 @@
            display: block;
        }
     #dashboard{
-        margin-left: 10%;
+        margin-left: 30%;
     }
     .con1{
         width: 50%;
@@ -48,41 +48,30 @@
     .drop_down{
         padding-right: 10%;
     }
+    #nav_img{
+        margin-left: 20%;
+    }
+    .con1,.con2{
+        width: 70%;
+        margin-left: 15%;
+    }
    }
    @media screen and (max-width: 490px) {
-
-    .con1{
-        width: 80%;
-        margin-left: 10%;
-    }
-    .con2{
-        width: 80%;
-        margin-left: 10%;
-    }
-    #drop_down_icon{
-        width: 40%;
-    }
-   }
-   @media screen and (max-width: 370px) {
-
-    #dashboard{
-        margin-left: 0;
-        padding-left: 3%;
-    }
-   }
-   @media screen and (max-width: 340px) {
 
     #dashboard{
         padding-left: 2%;
         font-size: large;
+        margin-left: 10%;
     }
+
     #nav_img img{
         width: 30px;
         height: 30px;
         margin-top: 3%;
+        margin-left: 20%;
     }
     #nav_bell,#nav_bracket{
-        padding-left: 1%;
+        padding-left: 4%;
         margin-left: 0;
     }
    }
