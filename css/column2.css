@@ -45,12 +45,13 @@
 }
 #message2 div{
     width: 60%;
-    background-color: rgb(2, 188, 191);
+    background-color: rgb(0, 200, 205);
     padding-top: 3%;
     padding-left: 2%;
     padding-bottom: 3%;
     padding-right: 2%;
     text-align: left;
+    color: white;
 }
 #message3{
     text-align: left;
