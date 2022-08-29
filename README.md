@@ -1,5 +1,5 @@
 # UIProject
-To run this in your browser, download the repo and double click on the html file.
+To run this in your browser, download the repo and open the html file.
 
 ScreenShots
 <img width="1512" alt="Screenshot_1" src="https://user-images.githubusercontent.com/111436778/187135207-7bad62dd-4e7a-4569-ac0e-d25c0e4d57f5.png">
