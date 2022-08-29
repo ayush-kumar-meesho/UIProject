@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="column1.css">
+    <link rel="stylesheet" href="column2.css">
+    <link rel="stylesheet" href="column3.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <script src="https://kit.fontawesome.com/5a6c6be071.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav_bar">
+            <span id="nav_arrow"><i class="fa fa-duotone fa-angle-left"></i></span>
+            <span id="dashboard">Dashboard</span>
+            <span id="nav_img"><img src="./media/prof5.jpeg"></span>
+            <span id="nav_bell"><i class="fa fa-duotone fa-bell"></i></span>
+            <span id="nav_bracket"><i class="fa fa-duotone fa-arrow-right-from-bracket"></i></span>
+        </nav>
+        <main>
+            <div class="con12">
+            <div class="con1">
+                <div class="a profile">
+                    <div id="profile_img"><img src="./media/prof5.jpeg"></div>
+                    <div id="profile_name">Ayush Kumar</div>
+                    <div id="profile_text">Pron cursus dignissim neque id
+                        gravida. Pulvinar fringilla aliquet.
+                        Integer elelfend dignissim maurls
+                    </div>
+                    <Button id="profile_button">PROFILE</Button>
+                </div>
+                <div class="a sign-in">
+                    <div id="signin_text">
+                        SIGN IN TO YOUR ACCOUNT
+                    </div>
+                    <form>
+                        <div>
+                            <label class="la"><i class="fa fa-thin fa-user"></i></label>
+                            <input type="text" placeholder="Username" class="la">
+                        </div>
+                        <div>
+                            <label class="la"><i class="fa fa-light fa-lock"></i></label>
+                            <input type="password" placeholder="Password" class="la">
+                        </div>
+                        <div><Button id="signin_button">SIGN IN</Button></div>
+                    </form>
+                    <div id="signin_text_bottom"><span>Not a member?</span> Sign Up Now</div>
+                </div>
+                <div class="a graph">
+                    <div id="graph_text">
+                        UPLOAD STATS
+                    </div>
+                    <div id="graph_img">
+                        <img src="./media/Screenshot 2022-08-23 at 7.18.59 PM.png">
+                    </div>
+                    <div id="graph_value">
+                        <div id="graph_value1">
+                            <div>.docx</div>
+                            <div class="graph_value_text">32%</div>
+                        </div>
+                        <div id="graph_value2">
+                            <div>.pdf</div>
+                            <div class="graph_value_text">4%</div>
+                        </div>
+                        <div id="graph_value3">
+                            <div>.mp3</div>
+                            <div class="graph_value_text">17%</div>
+                        </div>
+                        <div id="graph_value4">
+                            <div>.psd</div>
+                            <div class="graph_value_text">47%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="a social">
+                    <div id="social_text">
+                        Lets Get Social
+                    </div>
+                    <div>
+                        <button class="social"><i class="fa fa-brands fa-facebook-f"></i></button>
+                        <button class="social"><i class="fa fa-brands fa-twitter"></i></button>
+                        <button class="social"> <i class="fa fa-brands fa-linkedin-in"></i></button>
+                        <button class="social"><i class="fa fa-brands fa-skype"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="con2">
+                <div class ="a message">
+                    <div class="messages">
+                        <div id="message1">
+                            <img src="./media/prof2.jpeg">
+                            <div>Hey have'nt talked to you in a bit . How are you?</div>
+                        </div>
+                        <div id="message2">
+                            <img src="./media/prof3.jpeg">
+                            <div>Yea, it's been a while. I am doing great. what have you been upto?</div>
+                        </div>
+                        <div id="message3">
+                            <img src="./media/prof2.jpeg">
+                            <div>Same old busy working. You know how it is.</div>
+                        </div>
+                    </div>
+                    <!-- <img src="../../../Downloads/Screenshot 2022-08-23 at 11.22.15 PM.jpg"> -->
+                    <div id="message_input">
+                        <input type="text" placeholder="Type your message...">
+                        <button><span class="aaa"><i class="fa fa-light fa-circle-arrow-right"></i></span class="aaa">Send<span></span></button>
+                    </div>
+                </div>
+                <div class="a form2">
+                    <div id="form2_text">GET IN TOUCH</div>
+                    <form>
+                        <label class="form2_label1">NAME<sup><i class="fa fa-light fa-asterisk"></i></sup></label>
+                        <input class="form2_input1" type="text">
+                        <label class="form2_label1">EMAIL<sup><i class="fa fa-light fa-asterisk"></i></sup></label>
+                        <input class="form2_input1" type="email">
+                        <label class="form2_label1">PHONE NUMBER<sup><i class="fa fa-light fa-asterisk"></i></sup></label>
+                        <input class="form2_input1" type="tel">
+                        <label class="form2_label1">YOUR MESSAGE<sup><i class="fa fa-light fa-asterisk"></i></sup></label>
+                        <textarea id="form2_textarea"></textarea>
+                        <button id="form2_button">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div class ="a latest_tweets">
+                    <div id="latest_tweets_text"><span><i class="fa fa-brands fa-twitter"></i></span>LATEST TWEETS</div>
+                    <div class="latest_tweets_count">
+                        <div id="latest_tweets_1">
+                            <div>FOLLOWERS</div>
+                            <div class="count">4,253</div>
+                        </div>
+                        <div id="latest_tweets_2">
+                            <div>FOLLOWING</div>
+                            <div class="count"> 3,146</div>
+                        </div>
+                        <div id="latest_tweets_3">
+                            <div>TWEETS</div>
+                            <div class="count">6,981</div>
+                        </div>
+                    </div>
+                    <div id="latest_tweets_datas">
+                        <div class="latest_tweets_data">
+                            Learn how to change the orlentation of your Image using Content-Aware Scale: <a>http://bit./v/1hYdPp5</a>
+                            <div class="tweets_time">14 mins ago</div>
+                        </div>
+                        <hr>
+                        <div class="latest_tweets_data">
+                            Russell Brown qives a toast (er, does an Interview on <a>@lllustrator</a>, our first friend, to celebrate Its birthdav
+                            <div class="tweets_time">2 hours ago</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>   
+        </div> 
+           <div class="con3">
+                <div class="a video1">
+                    <video  controls>
+                        <source src="https://www.youtube.com/watch?v=dtI9aGfDKG0" type="video/mp4">
+                      </video>
+                </div>
+                <div class="level">
+                    <div class="drop_down">
+                        <div id="drop_down_icon"><span><i class="fa fa-thin fa-gear"></i></span><i class="fa fa-light fa-caret-down"></i></div>
+                        <div class="ab drop_down_edit"><span><i class="fa fa-light fa-pen"></i></span>Edit Post</div>
+                        <div class="ab drop_down_remove"><span><i class="fa fa-light fa-x"></i></span>Remove Post</div>
+                        <div class="ab drop_down_save"><span><i class="fa fa-light fa-check"></i></i></span>Save Changes</div>
+                    </div>
+                    <div class="temp">
+                        <div id="temp_image"><i class="fa fa-solid fa-cloud-sun"></i></div>
+                        <div id="temp_text">72° Brooklyn</div>
+                    </div>
+                </div>
+                <div class="a congratulations">
+                    <div id="congratulations_image"><i class="fa fa-light fa-circle-check"></i></div>
+                    <div id="congratulation_text1">Congratulations</div>
+                    <div id="congratulation_text2">Your information was successfully submitted!</div>
+                    <div id="congratulation_button"><button>GET STARTED</button></div>
+                </div>
+                <div class="video2">
+                    <video  controls>
+                        <source src="https://www.youtube.com/watch?v=dtI9aGfDKG0" type="video/mp4">
+                      </video>
+                </div>
+                <div class="bottom">
+                    <div class="bottom_image"><img src="./media/pro1.jpeg"></div>
+                    <div class="a bottom_text">
+                        <div class="bottom_text_name">Patel Banoni <span><i class="fa fa-light fa-clock"></i>4:35</span></div>
+                        <div class="bottom_text_text">Sed saplen ligula, congue sit amet nulla eg
+                            euls semper saplen. Praesent vulnutate</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

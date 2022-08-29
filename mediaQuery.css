@@ -1,0 +1,88 @@
+@media screen and (max-width: 1100px) {
+    main{
+        display: block;
+    }
+    .con12{
+        width: 100%;
+    }
+    .con2{
+        width: 45%;
+        margin-left: 10%;
+        margin-right: 0;
+    }
+    .con3{
+        width: 80%;
+        margin-left: 10%;
+    }
+   }
+   @media screen and (max-width: 1100px) {
+    #nav_img img{
+        margin-left: 5%;
+    }
+   }
+   @media screen and (max-width: 600px) {
+    main{
+        display: block;
+       }
+       .con12{
+           display: block;
+       }
+    #dashboard{
+        margin-left: 10%;
+    }
+    .con1{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .con2{
+        width: 50%;
+        margin-right: 0%;
+        margin-left: 25%;
+    }
+    .con3{
+        margin-left: 10%;
+    }
+    .temp{
+        margin-left: 0;
+    }
+    .drop_down{
+        padding-right: 10%;
+    }
+   }
+   @media screen and (max-width: 490px) {
+
+    .con1{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .con2{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #drop_down_icon{
+        width: 40%;
+    }
+   }
+   @media screen and (max-width: 370px) {
+
+    #dashboard{
+        margin-left: 0;
+        padding-left: 3%;
+    }
+   }
+   @media screen and (max-width: 340px) {
+
+    #dashboard{
+        padding-left: 2%;
+        font-size: large;
+    }
+    #nav_img img{
+        width: 30px;
+        height: 30px;
+        margin-top: 3%;
+    }
+    #nav_bell,#nav_bracket{
+        padding-left: 1%;
+        margin-left: 0;
+    }
+   }
